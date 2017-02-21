@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
   s.requirements << 'none'
 
-  s.add_dependency "solidus", '~> 1.1'
+  s.add_dependency "solidus", '~> 2.1'
   s.add_dependency 'mailchimp-api', '~> 2.0.5'
 
   s.add_development_dependency 'rspec-rails', '~> 2.14'
